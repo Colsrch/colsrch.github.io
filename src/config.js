@@ -2,7 +2,7 @@ const SERVE = false; // 是否使用线上服务器
 
 const HOST = ""; // 线上服务器地址，如果不使用请留空
 
-const BLOG_NAME = "EsunR-Blog"; // 个人网站名字
+const BLOG_NAME = "ChenYFan-测试馆"; // 个人网站名字
 
 const BLOG_URL = "https://blog.cyfan.top"; // 个人网站链接（请填写完整链接）
 
@@ -11,27 +11,27 @@ const GITHUB = "https://github.com/ChenYFan"; // 右上角 Github 图标链接�
 const BACKGROUND_IMG_URL = "https://www.esunr.xyz:8080/api/utils/bingPic"; // 背景图片url，留空默认为必应每日图片
 
 const SORT_DATA = [
-  { sortId: 1, title: "示例分类1" },
-  { sortId: 2, title: "示例分类2" }
+  { sortId: 1, title: "开源项目" },
+  { sortId: 2, title: "Demo项目" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
-const RECORD_NUMBER = "豫ICP备18045315号"; // 网站备案号，留空不显示
+const RECORD_NUMBER = ""; // 网站备案号，留空不显示
 
 const PAGES_DATA = [
   {
     pageId: 1,
     sortId: 1,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.com/",
+    title: "i-book.in",
+    subtitle: "i-book.in所有存档索引",
+    url: "https://github.com/ChenYFan-Tester/i-Book.in.Archive",
     icon: ""
   },
   {
     pageId: 2,
     sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
+    title: "i-book.in",
+    subtitle: "Demo页面",
+    url: "https://book.cyfan.top/",
     icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
