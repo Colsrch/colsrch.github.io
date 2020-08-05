@@ -15,7 +15,7 @@ install:
 
 script:
   - cnpm run build
-
+  - echo "tester.cyfan.top" > ./dist/CNAME
 
 deploy:
   provider: pages
