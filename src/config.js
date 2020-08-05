@@ -8,7 +8,7 @@ const BLOG_URL = "https://blog.cyfan.top"; // 个人网站链接（请填写完�
 
 const GITHUB = "https://github.com/ChenYFan"; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = "https://www.esunr.xyz:8080/api/utils/bingPic"; // 背景图片url，留空默认为必应每日图片
+const BACKGROUND_IMG_URL = "https://cdn.jsdelivr.net/gh/ChenYFan/CDN@master/img/back/2.jpg"; // 背景图片url，留空默认为必应每日图片
 
 const SORT_DATA = [
   { sortId: 1, title: "开源项目" },
