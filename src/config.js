@@ -27,23 +27,23 @@ const PAGES_DATA = [
     icon: ""
   },
   {
-    pageId: 1,
-    sortId: 2,
+    pageId: 2,
+    sortId: 1,
     title: "AppStore",
     subtitle: "基于Vue搭建的仿AppStore项目",
     url: "https://github.com/ChenYFan-Tester/appstore",
     icon: ""
   },
   {
-    pageId: 2,
-    sortId: 1,
+    pageId: 3,
+    sortId: 2,
     title: "i-book.in",
     subtitle: "Demo页面",
     url: "https://book.cyfan.top/",
     icon: ""
   },
   {
-    pageId: 2,
+    pageId: 4,
     sortId: 2,
     title: "AppStore",
     subtitle: "基于Travis-CI部署",
