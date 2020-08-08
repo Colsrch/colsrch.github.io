@@ -36,7 +36,7 @@ const PAGES_DATA = [
   },
   {
     pageId: 2,
-    sortId: 2,
+    sortId: 1,
     title: "i-book.in",
     subtitle: "Demo页面",
     url: "https://book.cyfan.top/",
