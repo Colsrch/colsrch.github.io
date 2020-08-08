@@ -6,7 +6,7 @@ const BLOG_NAME = "ChenYFan-测试馆"; // 个人网站名字
 
 const BLOG_URL = "https://blog.cyfan.top"; // 个人网站链接（请填写完整链接）
 
-const GITHUB = "https://github.com/ChenYFan"; // 右上角 Github 图标链接，留空不显示
+const GITHUB = "https://github.com/ChenYFan-tester"; // 右上角 Github 图标链接，留空不显示
 
 const BACKGROUND_IMG_URL = "https://cdn.jsdelivr.net/gh/ChenYFan/CDN@master/img/back/2.jpg"; // 背景图片url，留空默认为必应每日图片
 
@@ -27,11 +27,27 @@ const PAGES_DATA = [
     icon: ""
   },
   {
+    pageId: 1,
+    sortId: 2,
+    title: "AppStore",
+    subtitle: "基于Vue搭建的仿AppStore项目",
+    url: "https://github.com/ChenYFan-Tester/appstore",
+    icon: ""
+  },
+  {
     pageId: 2,
     sortId: 2,
     title: "i-book.in",
     subtitle: "Demo页面",
     url: "https://book.cyfan.top/",
+    icon: ""
+  },
+  {
+    pageId: 2,
+    sortId: 2,
+    title: "AppStore",
+    subtitle: "基于Travis-CI部署",
+    url: "https://app.cyfan.top",
     icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
