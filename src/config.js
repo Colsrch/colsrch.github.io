@@ -44,6 +44,14 @@ const PAGES_DATA = [
   },
   {
     pageId: 4,
+    sortId: 1,
+    title: "___-help-me-download",
+    subtitle: "XX帮我下载好吗【伸手党",
+    url: "https://github.com/ChenYFan-Tester/____-help-me-download",
+    icon: ""
+  },
+  {
+    pageId: 5,
     sortId: 2,
     title: "AppStore",
     subtitle: "基于Travis-CI部署",
@@ -64,7 +72,7 @@ const SLOGAN = [
   "马车越空，晃荡越响"
 ]; // 在Logo下方显示的标题
 
-const FOOTER_INFO = true; // 是否显示抽屉右下角的文字信息
+const FOOTER_INFO = false; // 是否显示抽屉右下角的文字信息
 
 export default {
   SERVE,
