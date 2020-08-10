@@ -57,6 +57,30 @@ const PAGES_DATA = [
     subtitle: "基于Travis-CI部署",
     url: "https://app.cyfan.top",
     icon: ""
+  },
+  {
+    pageId: 6,
+    sortId: 1,
+    title: "vue_douyin",
+    subtitle: "Vue 模仿抖音首页",
+    url: "https://github.com/ChenYFan-Tester/vue_douyin",
+    icon: ""
+  },
+  {
+    pageId: 7,
+    sortId: 1,
+    title: "MagicMusic",
+    subtitle: "🎵帅气的手机端音乐播放器（vue vue-router vuex flex ...）",
+    url: "https://github.com/ChenYFan-Tester/MagicMusic",
+    icon: ""
+  },
+  {
+    pageId: 8,
+    sortId: 1,
+    title: "AutoLinklastactivetime",
+    subtitle: "自动获取您的友链的最近活跃时间",
+    url: "AutoLinklastactivetime",
+    icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
