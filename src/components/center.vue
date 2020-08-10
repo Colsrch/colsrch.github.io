@@ -30,7 +30,7 @@
               <img
                 :src="
                   item.icon == ''
-                    ? 'http://img.cdn.esunr.xyz/Aquarium.png'
+                    ? 'https://cdn.jsdelivr.net/gh/ChenYFan/CDN@master/img/back/os.png'
                     : item.icon
                 "
               />
