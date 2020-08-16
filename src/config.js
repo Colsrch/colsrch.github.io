@@ -2,7 +2,7 @@ const SERVE = false; // 是否使用线上服务器
 
 const HOST = ""; // 线上服务器地址，如果不使用请留空
 
-const BLOG_NAME = "Colsrch"; // 个人网站名字
+const BLOG_NAME = "Colsrch'Blog"; // 个人网站名字
 
 const BLOG_URL = "https://colsrch.top"; // 个人网站链接（请填写完整链接）
 
