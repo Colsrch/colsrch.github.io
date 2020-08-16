@@ -2,17 +2,17 @@ const SERVE = false; // 是否使用线上服务器
 
 const HOST = ""; // 线上服务器地址，如果不使用请留空
 
-const BLOG_NAME = "ChenYFan-测试馆"; // 个人网站名字
+const BLOG_NAME = "Colsrch"; // 个人网站名字
 
-const BLOG_URL = "https://blog.cyfan.top"; // 个人网站链接（请填写完整链接）
+const BLOG_URL = "https://colsrch.top"; // 个人网站链接（请填写完整链接）
 
-const GITHUB = "https://github.com/ChenYFan-tester"; // 右上角 Github 图标链接，留空不显示
+const GITHUB = "https://github.com/Colsrch"; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = "https://cdn.jsdelivr.net/gh/ChenYFan/CDN@master/img/back/2.jpg"; // 背景图片url，留空默认为必应每日图片
+const BACKGROUND_IMG_URL = "https://cdn.jsdelivr.net/gh/Colsrch/pixiv@master/48.jpg"; // 背景图片url，留空默认为必应每日图片
 
 const SORT_DATA = [
   { sortId: 1, title: "开源项目" },
-  { sortId: 2, title: "Demo项目" }
+  { sortId: 2, title: "个人项目（瞎捣鼓" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
 const RECORD_NUMBER = ""; // 网站备案号，留空不显示
@@ -21,25 +21,25 @@ const PAGES_DATA = [
   {
     pageId: 1,
     sortId: 1,
-    title: "i-book.in",
-    subtitle: "i-book.in所有存档索引",
-    url: "https://github.com/ChenYFan-Tester/i-Book.in.Archive",
+    title: "hexo-offline-popup",
+    subtitle: "一个增强Hexo站点的插件",
+    url: "https://github.com/Colsrch/hexo-offline-popup",
     icon: ""
   },
   {
     pageId: 2,
-    sortId: 1,
-    title: "AppStore",
-    subtitle: "基于Vue搭建的仿AppStore项目",
-    url: "https://github.com/ChenYFan-Tester/appstore",
+    sortId: 2,
+    title: "AutoLinklastactivetime",
+    subtitle: "自动获取您的友链的最近活跃时间",
+    url: "https://github.com/Colsrch/AutoLinklastactivetime",
     icon: ""
   },
   {
     pageId: 3,
     sortId: 2,
-    title: "i-book.in",
-    subtitle: "Demo页面",
-    url: "https://book.cyfan.top/",
+    title: "baidu-url-submit-by-using-sitemap",
+    subtitle: "🚀 自动提取 sitemap 中的链接，并利用百度 API 进行推送，提升网站收录速度。",
+    url: "https://github.com/Colsrch/baidu-url-submit-by-using-sitemap",
     icon: ""
   },
   {
@@ -48,38 +48,6 @@ const PAGES_DATA = [
     title: "___-help-me-download",
     subtitle: "XX帮我下载好吗【伸手党",
     url: "https://github.com/ChenYFan-Tester/____-help-me-download",
-    icon: ""
-  },
-  {
-    pageId: 5,
-    sortId: 2,
-    title: "AppStore",
-    subtitle: "基于Travis-CI部署",
-    url: "https://app.cyfan.top",
-    icon: ""
-  },
-  {
-    pageId: 6,
-    sortId: 1,
-    title: "vue_douyin",
-    subtitle: "Vue 模仿抖音首页",
-    url: "https://github.com/ChenYFan-Tester/vue_douyin",
-    icon: ""
-  },
-  {
-    pageId: 7,
-    sortId: 1,
-    title: "MagicMusic",
-    subtitle: "🎵帅气的手机端音乐播放器（vue vue-router vuex flex ...）",
-    url: "https://github.com/ChenYFan-Tester/MagicMusic",
-    icon: ""
-  },
-  {
-    pageId: 8,
-    sortId: 1,
-    title: "AutoLinklastactivetime",
-    subtitle: "自动获取您的友链的最近活跃时间",
-    url: "AutoLinklastactivetime",
     icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
